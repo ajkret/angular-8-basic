@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-part-one',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-partOne';
+  title = 'Hello everybody';
+
+  constructor() {
+    this.title = 'Hello lads!!';
+  }
+
 }
